@@ -10,6 +10,7 @@ body {
     text-align: center;
     font-family: Helvetica, sans-serif;  
     background-color: black;
+    font-size: 1.375rem;
 }
 
 header {
@@ -51,7 +52,17 @@ main {
 .banner {
     background-image: url('../images/img-mission-background.jpg');
     background-size: cover;
-    
+    height: 43.75rem;
+    margin: 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.content {
+    background-color: black;
+    width: 100%;
+    line-height: 2;
 }
 
 .Tea {
@@ -108,4 +119,5 @@ main {
 
 .locations {
     background-image: url("../images/img-locations-background.webp")
+    
 }
