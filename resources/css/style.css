@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    
+    color: seashell;
+    text-align: center;
+    font-family: Helvetica, sans-serif;  
+    background-color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.Navigation {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    
+}
+.Navigation img {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav {
+    display: flex;
+    list-style-type: none;
+        
+}
+
+li {
+    margin-left: 15px;
+    text-decoration: underline;
+}
+
+main {
+    position: relative;
+    top: 70px;
+}
+
+.banner {
+    background-image: url('../images/img-mission-background.jpg');
+    background-size: cover;
+    
+}
+
+.Tea {
+    width: 100%;
+    
+}
+
+.Tea .content {
+    padding-bottom: 20px;
+    padding-top: 50px; 
+}
+
+.images {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.First_row {
+    display: flex;
+    justify-content: space-between;
+
+}   
+
+.Second_row {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    width: 30%;
+}
+
+.image_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#Ave {
+    padding-right: 25px;
+}
+
+#Bizarre  {
+    padding-left: 25px;
+}
+.image_container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.caption {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.locations {
+    background-image: url("../images/img-locations-background.webp")
+}
