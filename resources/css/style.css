@@ -52,7 +52,7 @@ main {
 .banner {
     background-image: url('../images/img-mission-background.jpg');
     background-size: cover;
-    height: 43.75rem;
+    height: 33rem;
     margin: 0 1.5rem;
     display: flex;
     justify-content: center;
@@ -67,7 +67,6 @@ main {
 
 .Tea {
     width: 100%;
-    
 }
 
 .Tea .content {
@@ -78,12 +77,12 @@ main {
 .images {
     width: 80%;
     margin: 0 auto;
+    padding-bottom: 5rem;
 }
 
 .First_row {
     display: flex;
     justify-content: space-between;
-
 }   
 
 .Second_row {
@@ -117,7 +116,58 @@ main {
     padding-bottom: 20px;
 }
 
+
+
+
 .locations {
-    background-image: url("../images/img-locations-background.webp")
-    
+    background-image: url("../images/img-locations-background.webp");
+    background-size: cover;
+    margin: 0 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 31.25rem;
+    width: auto;
+}
+
+
+.Addresses {
+    width: 81.6%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem auto 0 auto;
+    height: 60%;
+    border: solid gold;
+}
+
+.square {
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: black;
+    line-height: 1;
+    border: solid red;
+
+    }
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    overflow: hidden;
+    border: solid blue;
+}
+
+.center_loc {
+    padding-top: 2%;
+}
+
+.contacts {
+    height: 12.5rem;
+    padding-top: 1rem;
+    line-height: 2 ;
+}
+.copyright {
+    text-align: left;
+    padding-left: 1.25rem;
+    padding-bottom: 1rem;
 }
